@@ -16,12 +16,14 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "@types/express": "^4.17.1",
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.8",
     "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
     "eslint": "^6.4.0",
-    "eslint-config-airbnb-typescript": "^5.0.0",
     "eslint-config-prettier": "^6.3.0",
+    "eslint-config-typescript-airbnb-base": "^1.0.0-rc1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
     "jest": "^24.9.0",
@@ -32,7 +34,7 @@
   },
   "homepage": "https://github.com/hdemon/express-mvc#readme",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hdemon/express-mvc.git"
