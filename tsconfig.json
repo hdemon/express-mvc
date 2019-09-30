@@ -1,8 +1,11 @@
 {
     "compilerOptions": {
+        "allowJs": true,
         "module": "commonjs",
         "esModuleInterop": true,
         "target": "ESNext",
+        "lib": ["es2015"],
+        "types": ["node"],
         "noImplicitAny": true,
         "removeComments": true,
         "moduleResolution": "node",
