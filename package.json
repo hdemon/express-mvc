@@ -32,13 +32,13 @@
   },
   "homepage": "https://github.com/hdemon/express-mvc#readme",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hdemon/express-mvc.git"
   },
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "ts-node ./bin/www.ts",
     "build": "tsc",
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
     "test": "jest"
